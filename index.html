@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Software Developer | Portfolio</title>
+    <meta name="description"
+        content="Software Developer specializing in building high-performance applications and clean, minimalist digital experiences.">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body class="dark-theme">
+    <!-- Preloader -->
+    <div id="preloader">
+        <div class="loader-content">
+            <span class="count">0</span><span class="percent">%</span>
+        </div>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-inner">
+            <a href="#" class="nav-logo">Ezz</a>
+            <div class="nav-links">
+                <a href="#work">Work</a>
+                <a href="#about">About</a>
+                <a href="#contact">Let's talk</a>
+            </div>
+            <div class="mobile-toggle">
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <main>
+        <!-- Hero Section -->
+        <section id="hero" class="hero">
+            <div class="container">
+                <div class="hero-grid">
+                    <div class="hero-text">
+                        <div class="reveal-text">
+                            <h1 class="hero-main-title">
+                                Software that<br>
+                                <span class="circled-word"><em>works</em> <svg class="hand-circle"
+                                        viewBox="0 0 500 200">
+                                        <path
+                                            d="M492,100 c0,50 -100,90 -242,90 c-142,0 -242,-40 -242,-90 c0,-50 100,-90 242,-90 c142,0 242,40 242,90 Z" />
+                                    </svg></span> as hard<br>
+                                as the <em class="accent-text">business</em><br>
+                                <em class="accent-text">behind it</em>
+                            </h1>
+                        </div>
+                        <div class="hero-actions">
+                            <a href="#work" class="btn-outline">VIEW MY PROJECTS</a>
+                        </div>
+                    </div>
+                    <div class="hero-image">
+                        <div class="image-wrapper">
+                            <img src="assets/portrait.jpg" alt="Software Developer" class="portrait">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Stats / Marquee -->
+        <div class="marquee-section">
+            <div class="marquee">
+                <div class="marquee-content">
+                    <span>Clean Code • UI/UX Design • Performance • Scalability • Problem Solving • Architecture •
+                    </span>
+                    <span>Clean Code • UI/UX Design • Performance • Scalability • Problem Solving • Architecture •
+                    </span>
+                </div>
+            </div>
+        </div>
+
+        <!-- Selected Work -->
+        <section id="work" class="work-section">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">Selected <em>Work</em></h2>
+                </div>
+
+                <div class="projects-grid">
+                    <!-- Project 1: Cyberano Platform -->
+                    <div class="project-card" id="project-1">
+                        <div class="project-card-image">
+                            <img src="assets/cyberano.png" alt="Cyberano Platform">
+                        </div>
+                        <div class="project-card-content">
+                            <div class="project-card-header">
+                                <span class="project-card-year">2024</span>
+                                <h3 class="project-card-title">CYBERANO<br><em>PLATFORM</em></h3>
+                                <p class="project-card-category">CYBERSECURITY ECOSYSTEM</p>
+                            </div>
+                            <button class="project-expand-btn">
+                                <span class="btn-text">
+                                    <span>READ</span>
+                                    <span>BRIEF</span>
+                                </span>
+                                <i class="fas fa-plus"></i>
+                            </button>
+                        </div>
+
+                        <div class="project-brief">
+                            <div class="brief-inner">
+                                <div class="brief-grid">
+                                    <div class="brief-text">
+                                        <h4>Overview</h4>
+                                        <p>Cyberano is the leading ecosystem providing specialized cybersecurity
+                                            training and advanced solutions to empower human capital and secure your
+                                            enterprise.</p>
+                                        <div class="brief-tech">
+                                            <span>Next.js</span>
+                                            <span>Cybersecurity</span>
+                                            <span>UI/UX</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Project 2: Zagel -->
+                    <div class="project-card" id="project-2">
+                        <div class="project-card-image">
+                            <img src="assets/project-zagel.png" alt="Zagel">
+                        </div>
+                        <div class="project-card-content">
+                            <div class="project-card-header">
+                                <span class="project-card-year">2023</span>
+                                <h3 class="project-card-title">ZAGEL <em>STORE</em></h3>
+                                <p class="project-card-category">GIFT & CANDY STORE</p>
+                            </div>
+                            <button class="project-expand-btn">
+                                <span class="btn-text">
+                                    <span>READ</span>
+                                    <span>BRIEF</span>
+                                </span>
+                                <i class="fas fa-plus"></i>
+                            </button>
+                        </div>
+
+                        <div class="project-brief">
+                            <div class="brief-inner">
+                                <div class="brief-grid">
+                                    <div class="brief-text">
+                                        <h4>Overview</h4>
+                                        <p>An immersive e-commerce experience for a luxury chocolate and gift boutique.
+                                            Developed with a custom headless Shopify setup for maximum performance.</p>
+                                        <div class="brief-tech">
+                                            <span>Next.js</span>
+                                            <span>Shopify API</span>
+                                            <span>Framer Motion</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Project 3: Swap It -->
+                    <div class="project-card" id="project-3">
+                        <div class="project-card-image">
+                            <img src="assets/project-swapit.png" alt="Swap It">
+                        </div>
+                        <div class="project-card-content">
+                            <div class="project-card-header">
+                                <span class="project-card-year">2024</span>
+                                <h3 class="project-card-title">SWAP <em>IT</em></h3>
+                                <p class="project-card-category">SKILL SHARING PLATFORM</p>
+                            </div>
+                            <button class="project-expand-btn">
+                                <span class="btn-text">
+                                    <span>READ</span>
+                                    <span>BRIEF</span>
+                                </span>
+                                <i class="fas fa-plus"></i>
+                            </button>
+                        </div>
+
+                        <div class="project-brief">
+                            <div class="brief-inner">
+                                <div class="brief-grid">
+                                    <div class="brief-text">
+                                        <h4>Overview</h4>
+                                        <p>A community-driven platform allowing users to exchange skills without
+                                            monetary transactions. Built with real-time matching and secure chat
+                                            features.</p>
+                                        <div class="brief-tech">
+                                            <span>TypeScript</span>
+                                            <span>Firebase</span>
+                                            <span>React Native</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Project 4: Sherlock Holmes -->
+                    <div class="project-card" id="project-4">
+                        <div class="project-card-image">
+                            <img src="assets/project-sherlock.jpg" alt="Sherlock Holmes Cyber Investigation">
+                        </div>
+                        <div class="project-card-content">
+                            <div class="project-card-header">
+                                <span class="project-card-year">2024</span>
+                                <h3 class="project-card-title">SHERLOCK <em>HOLMES</em></h3>
+                                <p class="project-card-category">CYBER INVESTIGATION TOOL</p>
+                            </div>
+                            <button class="project-expand-btn">
+                                <span class="btn-text">
+                                    <span>READ</span>
+                                    <span>BRIEF</span>
+                                </span>
+                                <i class="fas fa-plus"></i>
+                            </button>
+                        </div>
+
+                        <div class="project-brief">
+                            <div class="brief-inner">
+                                <div class="brief-grid">
+                                    <div class="brief-text">
+                                        <h4>Overview</h4>
+                                        <p>An advanced digital forensics and investigation platform designed for
+                                            cybersecurity analysts. Implements complex pattern matching and automated
+                                            data gathering.</p>
+                                        <div class="brief-tech">
+                                            <span>Python</span>
+                                            <span>OSINT</span>
+                                            <span>Digital Forensics</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Project 5: Hellcipher -->
+                    <div class="project-card" id="project-5">
+                        <div class="project-card-image">
+                            <img src="assets/project-hellcipher.jpg" alt="Hellcipher Security">
+                        </div>
+                        <div class="project-card-content">
+                            <div class="project-card-header">
+                                <span class="project-card-year">2024</span>
+                                <h3 class="project-card-title">HELL <em>CIPHER</em></h3>
+                                <p class="project-card-category">ENCRYPTION & SECURITY</p>
+                            </div>
+                            <button class="project-expand-btn">
+                                <span class="btn-text">
+                                    <span>READ</span>
+                                    <span>BRIEF</span>
+                                </span>
+                                <i class="fas fa-plus"></i>
+                            </button>
+                        </div>
+
+                        <div class="project-brief">
+                            <div class="brief-inner">
+                                <div class="brief-grid">
+                                    <div class="brief-text">
+                                        <h4>Overview</h4>
+                                        <p>A cutting-edge encryption suite designed for maximum data privacy. Features
+                                            custom cryptographic algorithms and secure key management systems.</p>
+                                        <div class="brief-tech">
+                                            <span>Cryptography</span>
+                                            <span>C++</span>
+                                            <span>Security Engineering</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="about-section">
+            <div class="container">
+                <div class="about-grid">
+                    <div class="about-title">
+                        <h2>About <em>Me</em></h2>
+                    </div>
+                    <div class="about-image">
+                        <img src="assets/microsoft-portrait.png" alt="Software Developer at Microsoft">
+                    </div>
+                    <div class="about-content">
+                        <p class="large-text">I am a Software Developer driven by the challenge of creating digital
+                            solutions that are as elegant as they are functional.</p>
+                        <p>With years of experience in full-stack development, I bridge the gap between complex backend
+                            logic and seamless frontend interactions. My approach is centered on "Security-First"
+                            development and extreme performance optimization.</p>
+
+
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="contact-section">
+            <div class="container">
+                <div class="contact-card">
+                    <h2>Have a project in mind?</h2>
+                    <p>Let's build something exceptional together.</p>
+                    <div class="contact-meta">
+                        <a href="mailto:3zz.mo7amed2004@gmail.com" class="email-link">3zz.mo7amed2004@gmail.com</a>
+                        <div class="social-links">
+                            <a href="https://www.linkedin.com/in/ezz-mohamed-726793338" target="_blank"><i
+                                    class="fab fa-linkedin"></i></a>
+                            <a href="https://github.com/3zz2004" target="_blank"><i class="fab fa-github"></i></a>
+                            <a href="https://youtube.com/@cyber_by_ezz" target="_blank"><i
+                                    class="fab fa-youtube"></i></a>
+                        </div>
+                    </div>
+                    <form id="minimal-contact">
+                        <div class="input-group">
+                            <input type="text" id="wa-name" placeholder="Your Name" required>
+                        </div>
+                        <div class="input-group">
+                            <input type="email" id="wa-email" placeholder="Your Email" required>
+                        </div>
+                        <div class="input-group">
+                            <textarea id="wa-message" placeholder="Tell me about your project" required></textarea>
+                        </div>
+                        <button type="submit" class="btn-primary">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-inner">
+                <p>&copy; 2024 Portolio. All rights reserved.</p>
+                <div class="footer-links">
+                    <div class="footer-social">
+                        <a href="https://www.linkedin.com/in/ezz-mohamed-726793338" target="_blank"><i
+                                class="fab fa-linkedin"></i></a>
+                        <a href="https://github.com/3zz2004" target="_blank"><i class="fab fa-github"></i></a>
+                        <a href="https://youtube.com/@cyber_by_ezz" target="_blank"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
